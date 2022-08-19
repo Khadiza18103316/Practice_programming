@@ -1,0 +1,47 @@
+.potaka{
+    height: 100px;
+    width: 250px;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.red{
+    background: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dim{
+    height: 150px;
+    width: 100px;
+    background-color: burlywood;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+.kosum{
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    /* margin-left: 20px;
+    margin-right: 10px; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+
+}
