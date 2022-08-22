@@ -1,47 +1,73 @@
-.potaka{
-    height: 100px;
-    width: 250px;
-    background-color: green;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: blueviolet;
+    height: 25px;
     padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-
 
 }
-.red{
-    background: red;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+.main ul{
+text-align: right;
+
+}
+.main ul li{
     display: inline-block;
+    margin-left: -4px;
 }
+.main ul li a{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 30px;
 
-.dim{
-    height: 150px;
-    width: 100px;
-    background-color: burlywood;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 50%;
-
+  
 }
-.kosum{
-    background-color: yellow;
-    height: 80px;
-    width: 80px;
-    text-align: center;
-    border-radius: 50%;
-    display: inline-block;
-    /* margin-left: 20px;
-    margin-right: 10px; */
-    margin-top: 40px;
-    margin-bottom: 40px;
-    border-radius: 50%;
+.main ul li a:hover{
+    background-color: rebeccapurple;
+    color: #000;
+    padding: 10px;
+    border-radius: 10%; 
+}
+/* Dropdown */
+.main ul li{
+    position: relative;
+    
+}
+.main ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 150px;
+    background-color: blueviolet;
+    transition: .4s;
+    /* border-top: 1px solid #ddd; */
+    
+}
+.main ul li ul li{
+    display: block;
+    margin-left: 0;
+    
+}
+.main ul li ul li a{
+    display: block;
+    border: none;
+    
+}
+/* Hover */
+.main ul li ul{
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.main ul li:hover ul{
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
 
+
+    
 }

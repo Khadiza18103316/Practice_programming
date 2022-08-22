@@ -1,81 +1,81 @@
-/* h2{
-    background-color: green;
-    display: inline;
+*{
+    margin: 0;
+    padding: 0;
 }
-p{
-    background-color: green;
+.main{
+    background-color: blueviolet;
+
 }
-div{
-    text-align: ;
+.main h3{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
-span{
-    background-color: green;
+.main2 i{
+    height: 50px;
+    width: 50px;
+    background: blueviolet;
+    color: #ddd;
+    padding: 20px;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height: 50px;
+    border-radius: 50%;
     display: inline-block;
 }
-b{
-    background-color: green;
-}
-
-
-ul li a{
-    color: red;
-    text-decoration: none;
-}
-.list ul li:nth-child(odd) a{
-    color: aqua;
-}
-.list ul li:nth-child(odd) a{
-    color: blueviolet;
-} */
-
-h1{
-    background-color: green;
-}
-h2{
-    background-color: green;
-}
-h3{
-    background-color: green;
-}
-h4{
-    background-color: green;
-}
-h5{
-    background-color: green;
-}
-h6{
-    background-color: green;
-}
-/* div{
-    background-color: green;
-} */
-li{
-    background-color: green;
-}
-ul{
-    background-color: green;
-}
-a{
-    background-color: green;
-}
-img{
-    background-color: green;
-}
-span{
-    background-color: green;
-}
-b{
-    background-color: green;
-}
-input{
-    background-color: green;
-}
 p{
-    background-color: green;
+    color: black;
+    background-color: brown;
+    padding: 20px 20px;
+    border: 20px;
+    margin: 20px 0;
+    border: 2px solid red;
+    display: inline-block;
+    box-shadow: 3px;
+
 }
-nav{
+.sobuj{
+    height: 100px;
+    width: 250px;
     background-color: green;
+    text-align: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-.img{
-    background: url(img/akhi.jpg);
+.lal{
+    background: red;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.dim{
+    height: 220px;
+    width: 100px;
+    background-color: rgb(201, 161, 109);
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.kusum{
+    background-color: rgb(236, 173, 14);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

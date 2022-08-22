@@ -2,37 +2,28 @@
     margin: 0;
     padding: 0;
 }
-.full-website{
-    text-align: center;
-    color: black;
-    width: 100%;
-}
 .header{
+    background-color: aqua;
+    text-align: center;
     height: 70px;
-    background: #00cec9;
-
 }
 .banner{
-    width: 100%;
-
-}
-img{
-    width: 100%;
-    margin-bottom: -5px;
-
+    max-width: 100%;
 }
 .container{
-background: #74b9ff;
-padding: 60px 0;
+    background-color: aquamarine;
+    margin-top: -5px;
+    text-align: center;
+    padding: 20px 0;
 }
 .footer{
-    background: #b2bec3;
-    padding: 60px 0;
-
-
+    background-color: #c7ecee;
+    height: 50px;
+    text-align: center;
+    padding: 20px 0;
 }
 .footer-bottom{
-    background: #636e72;
-    height: 30px;
-
+    background-color: #535c68;
+    text-align: center;
+    padding: 20px 0;
 }

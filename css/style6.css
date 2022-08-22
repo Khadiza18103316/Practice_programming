@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1000px;
+    border: 2px solid red;
+    margin: 20px auto;
+    text-align: center;
+
+
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    background: orange;
+    margin: 20px;
+    display: inline-block;
+    transform: translate(50px,50px);    
+}
+.div2{
+    height: 100px;
+    width: 100px;
+    background: orange;
+    margin: 20px;
+    display: inline-block;
+}
+.div2:hover{
+    transform: rotate(50deg);
+    transition: .5s;
+}
+.div3{
+    height: 100px;
+    width: 100px;
+    background: orange;
+    margin: 20px;
+    display: inline-block;
+    transform: skewX(40deg);
+    
+}
+.div4{
+    height: 100px;
+    width: 100px;
+    background: orange;
+    margin: 20px;
+    display: inline-block;
+    transform: scale(2,2);
+    
+}
+.main2,img{
+    margin-left: 20px;
+    transition: .4s;
+}
+.main2 img:hover{
+    transform: scale(2,2);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.main3{
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    margin-left: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-attachment: scroll;
+    padding: 200px 0;
+}
+.main3 h2{
+    margin-top: -60px;
+}
+.main4{
+    height: 1000px;
+}
