@@ -27,7 +27,6 @@ img{
 }
 .header{
     background-color: #778ca3;
-
 }
 .header-left{
     float: left;
@@ -164,6 +163,7 @@ margin-top: 20px;
     width: 100px;
     height: auto;
     margin-right: 25px;
+    border-radius: 50%;
 }
 .blog-right h2{
     font-size: 30px;

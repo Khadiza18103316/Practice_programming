@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* Begain main css */
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
+.header{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 6px 0;
+}
+.header a{
+    color: #010101;
+}
+.header-logo{
+    width: 30%;
+
+}
+.header-logo img{
+    height: 50px;
+    float: left;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.header-logo span{
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.header-menu{
+    width: 56%;
+}
+.main-menu{
+
+}
+.main-menu ul{
+
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a{
+    display: block;
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 60px;
+}
+.main-menu ul li a:hover{
+
+}
+.header-button{
+    width: 14%;
+    text-align: center;
+}
+.header-btn{
+    border: 2px solid #6278df;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 8px;
+    color: #6278df !important;
+    font-size: 17px;
+    font-weight: 600;
+}
+.header-btn:hover{
+    background-color: #6278df;
+    color: #fff !important;
+}
+
+/* Dropdown Menu */
+.main-menu ul li{
+    position: relative;
+}
+.main-menu ul li ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 200px;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden; 
+    transition: .4s; 
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.main-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.main-menu ul li ul a{
+    
+}
+.main-menu ul li ul a:hover{
+    
+}
+
+/* Banner */
+.banner{
+    background: url(img/img1.avif) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+.banner-content{
+
+}
+.banner-content h3{
+    font-size: 26px;
+    font-weight: 400;
+}
+.banner-content h2{
+    font-size: 60px;
+    margin: 30px 0;
+}
+.default-btn{
+    color: #7d7d7d;
+    padding: 20px 30px;
+    background: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
