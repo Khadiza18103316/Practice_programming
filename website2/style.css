@@ -41,6 +41,11 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     padding: 6px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
 }
 .header a{
     color: #010101;
@@ -131,18 +136,19 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 
 /* Banner */
 .banner{
-    background: url(img/img1.avif) no-repeat center center;
+    background: url(img/img2.avif) no-repeat center center;
     background-size: cover;
     padding: 200px 0;
     color: #fff;
     position: relative;
     z-index: 9;
+    margin-top: 70px;
 }
 .banner::after{
     content: "";
     position: absolute;
     left: 0;
-    right: 0;
+    top: 0;
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, .4);
@@ -169,4 +175,83 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 10px;
+    transition: .4s;
+}
+.default-btn:hover{
+    background-color: #6278df;
+    color: #000;
+}
+
+/* Banner Bottom */
+.banner-buttom{
+    background: #f7f9ff;
+    padding: 100px 0;
+
+}
+.video-left{
+    width: 48%;
+}
+.video-right{
+    width: 48%;
+}
+.video-right h3{
+    font-size: 51px;
+    font-weight: 400; 
+    margin-bottom: 35px;
+}
+.video-right p{
+    color: #767676;
+    font-size: 18px;
+    line-height: 1.7em;
+}
+
+/* Service */
+.service{
+    background: #fff;
+    padding: 100px 0;
+}
+.service-title {
+
+}
+.service-title h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.service-title p{
+    color: #767676;
+   font-size: 20px;
+    
+}
+/* service Item */
+.service-item{
+    margin-top: 50px;
+}
+.service-box{
+    width: 31.3%;
+    box-shadow: 4px 4px 20px 0px rgba(0,0,0,.1);
+    margin-right: 2%;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.icon{
+    width: 60px;
+    float: left;
+    min-height: 168px;
+    font-size: 45px;
+    color: #6278df;
+    margin-top: 10px;
+}
+.content{
+    margin-top: 8px;
+}
+.content h3{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.content p{
+    color: #767676;
+    font-size: 20px;
+    line-height: 1.6rem;
 }
