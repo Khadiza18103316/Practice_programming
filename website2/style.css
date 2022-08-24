@@ -227,12 +227,16 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     margin-top: 50px;
 }
 .service-box{
-    width: 31.3%;
+    width: 32%;
     box-shadow: 4px 4px 20px 0px rgba(0,0,0,.1);
     margin-right: 2%;
     margin-bottom: 30px;
     padding: 25px;
     box-sizing: border-box;
+}
+.service-box:nth-child(3n+3){
+    margin-right: 0;
+
 }
 .icon{
     width: 60px;
@@ -254,4 +258,125 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     color: #767676;
     font-size: 20px;
     line-height: 1.6rem;
+}
+
+/* Pricing table */
+.pricing-table {
+    background: #f7f9ff;
+    padding: 50px;
+}
+.price-titel h3{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;  
+}
+.price-titel p{
+    color: #767676;
+    font-size: 20px;
+}
+.price-table-item{
+    margin-top: 80px;
+}
+.price-content{
+    width: 32%;
+    margin-right: 2%;
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .1);
+}
+.price-content:nth-child(3){
+    margin-right: 0;
+}
+.price-box1{
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+    transition: .4s;
+
+}
+.price-box1 h4{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.price-box1 h1{
+    margin: 42px 0;
+    font-size: 56px;
+}
+.price-box1 h1 span{
+    font-size: 20px;
+}
+.price-box1 h5{
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 22px;
+}
+.price-box1 p{
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+.price-box2{
+    padding: 30px;
+   
+}
+.price-box2 ul{
+    list-style: none;
+}
+.price-box2 ul li{
+    margin: 25px 0;
+    color: #767676;  
+    font-size: 22px; 
+}
+.price-box2 ul li span{
+    display: inline-block;
+    font-size: 20px;
+    color: #6278df;
+    width: 57px;
+}
+
+.price-button .default-btn{
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .3);
+}
+.price-content:hover .price-box1{
+    background: #6278df;
+    color: #fff;
+}
+.price-content:hover .price-button .default-btn{
+    background: #6278df;
+    color: #fff;
+}
+
+/* Team Section */
+.team-section{
+    padding: 50px 0;
+
+}
+.team-titel h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.team-member{
+
+}
+.member{
+    width: 23%;
+    margin-right: 2%;
+    background: #fff;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223, .2);
+}
+.member img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+}
+.member-bio {
+    padding: 30px;
+}
+.member-bio h4{
+    font-size: 23px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.member-bio p{
+    color: #767676;
+    font-size: 19px;
 }
