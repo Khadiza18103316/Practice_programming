@@ -1,0 +1,142 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    background-color: #00a8ff;
+    padding: 6px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+.header img{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+.header a{
+    text-decoration: none;
+}
+.header span{
+    color: #fff;
+    font-weight: bold;
+}
+.header ul{
+
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    display: block;
+    padding: 20px 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.header ul li a:hover{
+    
+}
+.banner{
+    background: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    background-attachment: fixed;
+}
+.banner h3{
+    background-color: #00a8ff;
+    color: #fff;
+    padding: 10px 10px;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.about{
+    background: #f7f9ff;
+    padding: 100px 0;
+}
+.about h3{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.about p{
+    color: #767676;
+    font-size: 20px;
+}
+.service{
+    background: #fff;
+    padding: 100px 0;
+}
+.service-item{
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.service span{
+    text-align: center;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background: #00a8ff;
+    color: #fff;
+    margin: auto;
+    font-size: 40px;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.service span:hover{
+    color: #d1d8e0;
+}
+.service h2{
+    font-size: 30px;
+    
+}
+.service p{
+    color: #767676;
+    
+}
+.content{
+    background: #f7f9ff;
+    padding: 100px 0;
+}
+.content-item img{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.content-item p{
+}
+.content-item2 h2{
+    font-size: 30px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.content-item2 ul{
+    list-style: none;
+
+}
+.content-item2 ul li{
+    border: 1px solid #ddd;
+    background: #fafafa;
+    padding: 18px;
+    font-size: 20px;
+    margin-bottom: 9px;
+    border-radius: 5px;
+}
+.footer{
+    background: #fff;
+}
+.footer-content{
+    text-align: center;
+    color: #000;
+    padding: 10px 0;
+
+}
+
