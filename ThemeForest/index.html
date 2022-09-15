@@ -25,7 +25,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white main-header">
           <div class="container">
 
             <a class="navbar-brand" href="#">
@@ -39,29 +39,40 @@
 
             <div class="collapse navbar-collapse" id="collapsibleNavId">
 
-                <ul class="navbar-nav ml-auto">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Pages</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Funding</a></li>
-                    <li><a href="">Loans</a></li>
-                    <li><a href="">News</a></li>
-                    <li><a href="">Contact</a></li>
+                <ul class="navbar-nav ml-auto our-primary-menu">
+                    <li><a href="#" class="nav-link active" style="color: #e73a3e;">Home</a></li>
+                    <li><a href="#">Pages</a>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Loan Calculator</a></li>
+                        <li><a href="#">Apply Now</a></li>
+                        <li><a href="#">Prject</a></li>
+                        <li><a href="#">Trams & Condition</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Funding</a></li>
+                    <li><a href="#">Loans</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
 
-                <div class="header-info d-flex">
+                <div class="header-info d-flex align-items-center">
                     <div class="header-search">
                         <span><i class="fas fa-search"></i></span>
                     </div>
-                    <div class="header-call">
-                        <div class="header-call-icon">
-                            <span><i class="fas fa-phone-volume "></i></span>
+                    <div  class="header-call clearfix">
+                        <div class="header-call-icon float-left mr-3 h-100">
+                            <span><i class="fas fa-phone-volume"></i></span>
                         </div>
                         <div class="header-call-info">
-                            <span>Call Now</span>
-                            <a href="tel:+15143125678">+1 (514) 312-5678</a>
+                            <span class="d-block">Call Now</span>
+                            <a class="d-block" href="tel:+15143125678">+1 (514) 312-5678</a>
                         </div>
-
                     </div>
                     <div class="header-button">
                         <a href="#" class="btn btn-primary">Apply Now</a>
