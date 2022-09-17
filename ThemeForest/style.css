@@ -188,3 +188,88 @@ ul.our-primary-menu li ul li a{
 .header-social ul li a:hover{
     color: #e73a3e;
 }
+
+/* Logo Section */
+.logo-section {
+    border-bottom: 1px solid #ddd;
+}
+.client-logo{
+
+}
+.client-logo ul{
+    list-style: none;
+    padding-left: 0;
+    animation-name: example;
+    animation-duration: 4s;
+}
+/* About Section*/
+.about-section{
+   
+}
+.about-image{
+    position: relative;
+
+}
+.about-img-text{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    background: url(img/shape.png);
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about-img-text h2{
+
+}
+.about-img-text p{
+
+}
+.about-text{
+
+}
+.finix-text{
+
+}
+.finix-text h6{
+    color: #e73a3e;
+    font-weight: 400;
+}
+.finix-text h2{
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.finix-text p{
+    color: #606060;
+    font-size: 18px;
+}
+.finix-text strong{
+    color: #606060;
+    font-weight: 400;
+    font-size: 20px;
+}
+.finix-text ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+.finix-text li{
+    padding: 5px 0;
+}
+.finix-text li::before{
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    color: #e73a3e;
+    display: inline-block;
+    margin-right: 10px;
+}
