@@ -335,8 +335,8 @@ ul.our-primary-menu li ul li a{
     position: relative;
 }
 .play-animation-btn{
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     display: inline-block;
     background: #fff;
     font-size: 60px;
@@ -345,8 +345,8 @@ ul.our-primary-menu li ul li a{
     color: #e73a3e;
     border-radius: 50%;
     position: absolute;
-    right: 41px;
-    bottom: 51px;
+    right: 70px;
+    bottom: 80px;
 }
 .play-animation-btn:hover{
     color: #e73a3e;
@@ -375,4 +375,77 @@ ul.our-primary-menu li ul li a{
         transform: scale(2);
         opacity: 0;
     }
+}
+
+/* Apply Now Section */
+.apply-now-section{
+
+}
+.apply-now-left-text{
+    margin-top: 60px;
+
+}
+.step-timeline{
+
+}
+.step-timeline ul{
+    list-style: none;
+    position: relative;
+    padding-left: 60px;
+}
+.step-timeline ul::before{
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    width: 1px;
+    background: #e73a3e;
+    height: calc(100% - 100px);
+}
+.step-timeline ul li{
+    margin-bottom: 25px;
+    position: relative;
+}
+.step-timeline ul li::before{
+    content: attr(data-counter);
+    position: absolute;
+    left: -65px;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background: #f9fafb;
+    border: 1px solid #e73a3e;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.step-timeline ul li strong{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+.step-timeline ul li p{
+    color: #606060;
+}
+.calculate-rate{
+    background-color: #fdebeb;
+    padding: 50px;
+}
+.calculate-form .form-group{
+    margin-bottom: 20px;
+}
+.calculate-form .form-group input{
+    border: none;
+    border-radius: 0;
+    padding: 14px 15px;
+}
+.calculate-form .form-group select{
+    border: none;
+    border-radius: 0;
+    height: 53px;
+}
+.calculate-form .form-group label{
+    display: block;
+    margin-bottom: 10px;
+
 }
